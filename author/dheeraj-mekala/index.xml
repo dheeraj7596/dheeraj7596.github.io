@@ -14,3 +14,40 @@
     
   </channel>
 </rss>
+/dheeraj-mekala/</link>
+    </image>
+    
+    <item>
+      <title>Contextualized Weak Supervision for Text Classification</title>
+      <link>https://dheeraj7596.github.io/publication/conwea/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://dheeraj7596.github.io/publication/conwea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User Bias Removal in Review Score Prediction</title>
+      <link>https://dheeraj7596.github.io/publication/ubr/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://dheeraj7596.github.io/publication/ubr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations</title>
+      <link>https://dheeraj7596.github.io/publication/scdv/</link>
+      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://dheeraj7596.github.io/publication/scdv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayes-optimal Hierarchical Classification over Asymmetric Tree-Distance Loss</title>
+      <link>https://dheeraj7596.github.io/publication/bopt/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://dheeraj7596.github.io/publication/bopt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
