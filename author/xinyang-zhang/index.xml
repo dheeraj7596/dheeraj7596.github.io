@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jingbo Shang | Dheeraj Mekala</title>
-    <link>https://dheeraj7596.github.io/author/jingbo-shang/</link>
-      <atom:link href="https://dheeraj7596.github.io/author/jingbo-shang/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jingbo Shang</description>
+    <title>Xinyang Zhang | Dheeraj Mekala</title>
+    <link>https://dheeraj7596.github.io/author/xinyang-zhang/</link>
+      <atom:link href="https://dheeraj7596.github.io/author/xinyang-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xinyang Zhang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
-      <title>Jingbo Shang</title>
-      <link>https://dheeraj7596.github.io/author/jingbo-shang/</link>
+      <title>Xinyang Zhang</title>
+      <link>https://dheeraj7596.github.io/author/xinyang-zhang/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://dheeraj7596.github.io/publication/meta/</link>
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://dheeraj7596.github.io/publication/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contextualized Weak Supervision for Text Classification</title>
-      <link>https://dheeraj7596.github.io/publication/conwea/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/conwea/</guid>
       <description></description>
     </item>
     
