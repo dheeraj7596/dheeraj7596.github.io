@@ -5,12 +5,21 @@
     <link>https://dheeraj7596.github.io/</link>
       <atom:link href="https://dheeraj7596.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Dheeraj Mekala</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 27 Apr 2021 11:38:25 -0700</lastBuildDate>
     <image>
       <url>https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
       <title>Dheeraj Mekala</title>
       <link>https://dheeraj7596.github.io/</link>
     </image>
+    
+    <item>
+      <title>March 2021 NLP Reading: </title>
+      <link>https://dheeraj7596.github.io/post/mar_2021_nlp/</link>
+      <pubDate>Tue, 27 Apr 2021 11:38:25 -0700</pubDate>
+      <guid>https://dheeraj7596.github.io/post/mar_2021_nlp/</guid>
+      <description>&lt;h2 id=&#34;ad-hoc-document-retrieval-using-weaksupervision-with-bert-and-gpt2&#34;&gt;Ad-hoc Document Retrieval using WeakSupervision with BERT and GPT2&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>X-Class: Text Classification with Extremely Weak Supervision</title>
