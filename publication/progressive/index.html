@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Weakly supervised text classification methods typically train a deep neural classifier based on pseudo-labels. The quality of pseudo-labels is crucial to final performance but they are inevitably noisy due to their heuristic nature, so selecting the correct ones has a huge potential for performance boost. One straightforward solution is to select samples based on the softmax probability scores in the neural classifier corresponding to their pseudo-labels. However, we show through our experiments that such solutions are ineffective and unstable due to the erroneously high-confidence predictions from poorly calibrated models. Recent studies on the memorization effects of deep neural models suggest that these models first memorize training samples with clean labels and then those with noisy labels. Inspired by this observation, we propose a novel pseudo-label selection method LOPS that takes learning order of samples into consideration. We hypothesize that the learning order reflects the probability of wrong annotation in terms of ranking, and therefore, propose to select the samples that are learnt earlier. LOPS can be viewed as a strong performance-boost plug-in to most of existing weakly-supervised text classification methods, as confirmed in extensive experiments on four real-world datasets.">
+  <meta name="description" content="Multilingual transformer language models have recently attracted much attention from researchers and are used in cross-lingual transfer learning for many NLP tasks such as text classification and named entity recognition. However, similar methods for transfer learning from monolingual text to code-switched text have not been extensively explored mainly due to the following challenges: (1) Codeswitched corpus, unlike monolingual corpus, consists of more than one language and existing methods can’t be applied efficiently, (2) Code-switched corpus is usually made of resource-rich and low-resource languages and upon using multilingual pre-trained language models, the final model might bias towards resource-rich language. In this paper, we focus on code-switched sentiment analysis where we have a labelled resource-rich language dataset and unlabelled code-switched data. We propose a framework that takes the distinction between resource-rich and low-resource language into account. Instead of training on the entire code-switched corpus at once, we create buckets based on the fraction of words in the resource-rich language and progressively train from resource-rich language dominated samples to low-resource language dominated samples. Extensive experiments across multiple language pairs demonstrate that progressive training helps low-resource language dominated samples.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dheeraj7596.github.io/publication/lops/">
+  <link rel="alternate" hreflang="en-us" href="https://dheeraj7596.github.io/publication/progressive/">
 
   
 
@@ -258,7 +258,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://dheeraj7596.github.io/publication/lops/">
+  <link rel="canonical" href="https://dheeraj7596.github.io/publication/progressive/">
 
   
   
@@ -277,15 +277,15 @@
   <meta property="twitter:creator" content="@MekalaDheeraj">
   
   <meta property="og:site_name" content="Dheeraj Mekala">
-  <meta property="og:url" content="https://dheeraj7596.github.io/publication/lops/">
-  <meta property="og:title" content="LOPS: Learning Order Inspired Pseudo-Label Selection for Weakly Supervised Text Classification | Dheeraj Mekala">
-  <meta property="og:description" content="Weakly supervised text classification methods typically train a deep neural classifier based on pseudo-labels. The quality of pseudo-labels is crucial to final performance but they are inevitably noisy due to their heuristic nature, so selecting the correct ones has a huge potential for performance boost. One straightforward solution is to select samples based on the softmax probability scores in the neural classifier corresponding to their pseudo-labels. However, we show through our experiments that such solutions are ineffective and unstable due to the erroneously high-confidence predictions from poorly calibrated models. Recent studies on the memorization effects of deep neural models suggest that these models first memorize training samples with clean labels and then those with noisy labels. Inspired by this observation, we propose a novel pseudo-label selection method LOPS that takes learning order of samples into consideration. We hypothesize that the learning order reflects the probability of wrong annotation in terms of ranking, and therefore, propose to select the samples that are learnt earlier. LOPS can be viewed as a strong performance-boost plug-in to most of existing weakly-supervised text classification methods, as confirmed in extensive experiments on four real-world datasets."><meta property="og:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://dheeraj7596.github.io/publication/progressive/">
+  <meta property="og:title" content="Progressive Sentiment Analysis for Code-Switched Text Data | Dheeraj Mekala">
+  <meta property="og:description" content="Multilingual transformer language models have recently attracted much attention from researchers and are used in cross-lingual transfer learning for many NLP tasks such as text classification and named entity recognition. However, similar methods for transfer learning from monolingual text to code-switched text have not been extensively explored mainly due to the following challenges: (1) Codeswitched corpus, unlike monolingual corpus, consists of more than one language and existing methods can’t be applied efficiently, (2) Code-switched corpus is usually made of resource-rich and low-resource languages and upon using multilingual pre-trained language models, the final model might bias towards resource-rich language. In this paper, we focus on code-switched sentiment analysis where we have a labelled resource-rich language dataset and unlabelled code-switched data. We propose a framework that takes the distinction between resource-rich and low-resource language into account. Instead of training on the entire code-switched corpus at once, we create buckets based on the fraction of words in the resource-rich language and progressively train from resource-rich language dominated samples to low-resource language dominated samples. Extensive experiments across multiple language pairs demonstrate that progressive training helps low-resource language dominated samples."><meta property="og:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2022-05-25T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-05-24T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-05-25T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-05-24T00:00:00&#43;00:00">
   
 
   
@@ -307,16 +307,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://dheeraj7596.github.io/publication/lops/"
+    "@id": "https://dheeraj7596.github.io/publication/progressive/"
   },
-  "headline": "LOPS: Learning Order Inspired Pseudo-Label Selection for Weakly Supervised Text Classification",
+  "headline": "Progressive Sentiment Analysis for Code-Switched Text Data",
   
-  "datePublished": "2022-05-25T00:00:00Z",
-  "dateModified": "2022-05-25T00:00:00Z",
+  "datePublished": "2022-05-24T00:00:00Z",
+  "dateModified": "2022-05-24T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Dheeraj Mekala"
+    "name": "Sudhanshu Ranjan"
   },
   
   "publisher": {
@@ -327,7 +327,7 @@
       "url": "https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Weakly supervised text classification methods typically train a deep neural classifier based on pseudo-labels. The quality of pseudo-labels is crucial to final performance but they are inevitably noisy due to their heuristic nature, so selecting the correct ones has a huge potential for performance boost. One straightforward solution is to select samples based on the softmax probability scores in the neural classifier corresponding to their pseudo-labels. However, we show through our experiments that such solutions are ineffective and unstable due to the erroneously high-confidence predictions from poorly calibrated models. Recent studies on the memorization effects of deep neural models suggest that these models first memorize training samples with clean labels and then those with noisy labels. Inspired by this observation, we propose a novel pseudo-label selection method LOPS that takes learning order of samples into consideration. We hypothesize that the learning order reflects the probability of wrong annotation in terms of ranking, and therefore, propose to select the samples that are learnt earlier. LOPS can be viewed as a strong performance-boost plug-in to most of existing weakly-supervised text classification methods, as confirmed in extensive experiments on four real-world datasets."
+  "description": "Multilingual transformer language models have recently attracted much attention from researchers and are used in cross-lingual transfer learning for many NLP tasks such as text classification and named entity recognition. However, similar methods for transfer learning from monolingual text to code-switched text have not been extensively explored mainly due to the following challenges: (1) Codeswitched corpus, unlike monolingual corpus, consists of more than one language and existing methods can’t be applied efficiently, (2) Code-switched corpus is usually made of resource-rich and low-resource languages and upon using multilingual pre-trained language models, the final model might bias towards resource-rich language. In this paper, we focus on code-switched sentiment analysis where we have a labelled resource-rich language dataset and unlabelled code-switched data. We propose a framework that takes the distinction between resource-rich and low-resource language into account. Instead of training on the entire code-switched corpus at once, we create buckets based on the fraction of words in the resource-rich language and progressively train from resource-rich language dominated samples to low-resource language dominated samples. Extensive experiments across multiple language pairs demonstrate that progressive training helps low-resource language dominated samples."
 }
 </script>
 
@@ -345,7 +345,7 @@
 
 
 
-  <title>LOPS: Learning Order Inspired Pseudo-Label Selection for Weakly Supervised Text Classification | Dheeraj Mekala</title>
+  <title>Progressive Sentiment Analysis for Code-Switched Text Data | Dheeraj Mekala</title>
 
 </head>
 
@@ -627,7 +627,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>LOPS: Learning Order Inspired Pseudo-Label Selection for Weakly Supervised Text Classification</h1>
+  <h1>Progressive Sentiment Analysis for Code-Switched Text Data</h1>
 
   
 
@@ -645,7 +645,7 @@
     
 
   
-  <span >Dheeraj Mekala</span>, <span >Chengyu Dong</span>, <span >Jingbo Shang</span>
+  <span >Sudhanshu Ranjan</span>, <span >Dheeraj Mekala</span>, <span >Jingbo Shang</span>
   </div>
   
   
@@ -704,7 +704,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2205.12528.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2210.14380.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -715,7 +715,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/dheeraj7596/LOPS" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/s1998/progressiveTrainCodeSwitch" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -744,7 +744,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Weakly supervised text classification methods typically train a deep neural classifier based on pseudo-labels. The quality of pseudo-labels is crucial to final performance but they are inevitably noisy due to their heuristic nature, so selecting the correct ones has a huge potential for performance boost. One straightforward solution is to select samples based on the softmax probability scores in the neural classifier corresponding to their pseudo-labels. However, we show through our experiments that such solutions are ineffective and unstable due to the erroneously high-confidence predictions from poorly calibrated models. Recent studies on the memorization effects of deep neural models suggest that these models first memorize training samples with clean labels and then those with noisy labels. Inspired by this observation, we propose a novel pseudo-label selection method LOPS that takes learning order of samples into consideration. We hypothesize that the learning order reflects the probability of wrong annotation in terms of ranking, and therefore, propose to select the samples that are learnt earlier. LOPS can be viewed as a strong performance-boost plug-in to most of existing weakly-supervised text classification methods, as confirmed in extensive experiments on four real-world datasets.</p>
+    <p class="pub-abstract">Multilingual transformer language models have recently attracted much attention from researchers and are used in cross-lingual transfer learning for many NLP tasks such as text classification and named entity recognition. However, similar methods for transfer learning from monolingual text to code-switched text have not been extensively explored mainly due to the following challenges: (1) Codeswitched corpus, unlike monolingual corpus, consists of more than one language and existing methods can’t be applied efficiently, (2) Code-switched corpus is usually made of resource-rich and low-resource languages and upon using multilingual pre-trained language models, the final model might bias towards resource-rich language. In this paper, we focus on code-switched sentiment analysis where we have a labelled resource-rich language dataset and unlabelled code-switched data. We propose a framework that takes the distinction between resource-rich and low-resource language into account. Instead of training on the entire code-switched corpus at once, we create buckets based on the fraction of words in the resource-rich language and progressively train from resource-rich language dominated samples to low-resource language dominated samples. Extensive experiments across multiple language pairs demonstrate that progressive training helps low-resource language dominated samples.</p>
     
 
     
@@ -806,7 +806,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://dheeraj7596.github.io/publication/lops/&amp;text=LOPS:%20Learning%20Order%20Inspired%20Pseudo-Label%20Selection%20for%20Weakly%20Supervised%20Text%20Classification" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://dheeraj7596.github.io/publication/progressive/&amp;text=Progressive%20Sentiment%20Analysis%20for%20Code-Switched%20Text%20Data" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -819,7 +819,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://dheeraj7596.github.io/publication/lops/&amp;t=LOPS:%20Learning%20Order%20Inspired%20Pseudo-Label%20Selection%20for%20Weakly%20Supervised%20Text%20Classification" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://dheeraj7596.github.io/publication/progressive/&amp;t=Progressive%20Sentiment%20Analysis%20for%20Code-Switched%20Text%20Data" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -832,7 +832,7 @@
       
       
       <li>
-        <a href="mailto:?subject=LOPS:%20Learning%20Order%20Inspired%20Pseudo-Label%20Selection%20for%20Weakly%20Supervised%20Text%20Classification&amp;body=https://dheeraj7596.github.io/publication/lops/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Progressive%20Sentiment%20Analysis%20for%20Code-Switched%20Text%20Data&amp;body=https://dheeraj7596.github.io/publication/progressive/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -845,7 +845,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://dheeraj7596.github.io/publication/lops/&amp;title=LOPS:%20Learning%20Order%20Inspired%20Pseudo-Label%20Selection%20for%20Weakly%20Supervised%20Text%20Classification" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://dheeraj7596.github.io/publication/progressive/&amp;title=Progressive%20Sentiment%20Analysis%20for%20Code-Switched%20Text%20Data" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -858,7 +858,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=LOPS:%20Learning%20Order%20Inspired%20Pseudo-Label%20Selection%20for%20Weakly%20Supervised%20Text%20Classification%20https://dheeraj7596.github.io/publication/lops/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Progressive%20Sentiment%20Analysis%20for%20Code-Switched%20Text%20Data%20https://dheeraj7596.github.io/publication/progressive/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -871,7 +871,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://dheeraj7596.github.io/publication/lops/&amp;title=LOPS:%20Learning%20Order%20Inspired%20Pseudo-Label%20Selection%20for%20Weakly%20Supervised%20Text%20Classification" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://dheeraj7596.github.io/publication/progressive/&amp;title=Progressive%20Sentiment%20Analysis%20for%20Code-Switched%20Text%20Data" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
