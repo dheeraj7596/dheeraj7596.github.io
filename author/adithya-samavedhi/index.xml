@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adithya Samavedhi | Dheeraj Mekala</title>
+    <link>https://dheeraj7596.github.io/author/adithya-samavedhi/</link>
+      <atom:link href="https://dheeraj7596.github.io/author/adithya-samavedhi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Adithya Samavedhi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
+      <title>Adithya Samavedhi</title>
+      <link>https://dheeraj7596.github.io/author/adithya-samavedhi/</link>
+    </image>
+    
+    <item>
+      <title>SELFOOD: Self-Supervised Out-Of-Distribution Detection via Learning to Rank</title>
+      <link>https://dheeraj7596.github.io/publication/selfood/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://dheeraj7596.github.io/publication/selfood/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

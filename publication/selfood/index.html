@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Ph.D. Candidate in Computer Science">
+  <meta name="description" content="Deep neural classifiers trained with cross-entropy loss (CE loss) often suffer from poor calibration, necessitating the task of out-of-distribution (OOD) detection. Traditional supervised OOD detection methods require expensive manual annotation of in-distribution and OOD samples. To address the annotation bottleneck, we introduce SELFOOD, a self-supervised OOD detection method that requires only in-distribution samples as supervision. We cast OOD detection as an inter-document intra-label (IDIL) ranking problem and train the classifier with our pairwise ranking loss, referred to as IDIL loss. Specifically, given a set of in-distribution documents and their labels, for each label, we train the classifier to rank the softmax scores of documents belonging to that label to be higher than the scores of documents that belong to other labels. Unlike CE loss, our IDIL loss function reaches zero when the desired confidence ranking is achieved and gradients are backpropagated to decrease probabilities associated with incorrect labels rather than continuously increasing the probability of the correct label. Extensive experiments with several classifiers on multiple classification datasets demonstrate the effectiveness of our method in both coarse- and fine-grained settings.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dheeraj7596.github.io/publication_types/">
+  <link rel="alternate" hreflang="en-us" href="https://dheeraj7596.github.io/publication/selfood/">
 
   
 
@@ -253,14 +253,12 @@
   
 
   
-  <link rel="alternate" href="/publication_types/index.xml" type="application/rss+xml" title="Dheeraj Mekala">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://dheeraj7596.github.io/publication_types/">
+  <link rel="canonical" href="https://dheeraj7596.github.io/publication/selfood/">
 
   
   
@@ -279,18 +277,61 @@
   <meta property="twitter:creator" content="@MekalaDheeraj">
   
   <meta property="og:site_name" content="Dheeraj Mekala">
-  <meta property="og:url" content="https://dheeraj7596.github.io/publication_types/">
-  <meta property="og:title" content="Publication_types | Dheeraj Mekala">
-  <meta property="og:description" content="Ph.D. Candidate in Computer Science"><meta property="og:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://dheeraj7596.github.io/publication/selfood/">
+  <meta property="og:title" content="SELFOOD: Self-Supervised Out-Of-Distribution Detection via Learning to Rank | Dheeraj Mekala">
+  <meta property="og:description" content="Deep neural classifiers trained with cross-entropy loss (CE loss) often suffer from poor calibration, necessitating the task of out-of-distribution (OOD) detection. Traditional supervised OOD detection methods require expensive manual annotation of in-distribution and OOD samples. To address the annotation bottleneck, we introduce SELFOOD, a self-supervised OOD detection method that requires only in-distribution samples as supervision. We cast OOD detection as an inter-document intra-label (IDIL) ranking problem and train the classifier with our pairwise ranking loss, referred to as IDIL loss. Specifically, given a set of in-distribution documents and their labels, for each label, we train the classifier to rank the softmax scores of documents belonging to that label to be higher than the scores of documents that belong to other labels. Unlike CE loss, our IDIL loss function reaches zero when the desired confidence ranking is achieved and gradients are backpropagated to decrease probabilities associated with incorrect labels rather than continuously increasing the probability of the correct label. Extensive experiments with several classifiers on multiple classification datasets demonstrate the effectiveness of our method in both coarse- and fine-grained settings."><meta property="og:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-10-24T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2023-10-24T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2023-10-24T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dheeraj7596.github.io/publication/selfood/"
+  },
+  "headline": "SELFOOD: Self-Supervised Out-Of-Distribution Detection via Learning to Rank",
+  
+  "datePublished": "2023-10-24T00:00:00Z",
+  "dateModified": "2023-10-24T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Dheeraj Mekala"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dheeraj Mekala",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Deep neural classifiers trained with cross-entropy loss (CE loss) often suffer from poor calibration, necessitating the task of out-of-distribution (OOD) detection. Traditional supervised OOD detection methods require expensive manual annotation of in-distribution and OOD samples. To address the annotation bottleneck, we introduce SELFOOD, a self-supervised OOD detection method that requires only in-distribution samples as supervision. We cast OOD detection as an inter-document intra-label (IDIL) ranking problem and train the classifier with our pairwise ranking loss, referred to as IDIL loss. Specifically, given a set of in-distribution documents and their labels, for each label, we train the classifier to rank the softmax scores of documents belonging to that label to be higher than the scores of documents that belong to other labels. Unlike CE loss, our IDIL loss function reaches zero when the desired confidence ranking is achieved and gradients are backpropagated to decrease probabilities associated with incorrect labels rather than continuously increasing the probability of the correct label. Extensive experiments with several classifiers on multiple classification datasets demonstrate the effectiveness of our method in both coarse- and fine-grained settings."
+}
+</script>
+
+  
 
   
 
@@ -298,10 +339,13 @@
   
 
 
+  
 
 
 
-  <title>Publication_types | Dheeraj Mekala</title>
+
+
+  <title>SELFOOD: Self-Supervised Out-Of-Distribution Detection via Learning to Rank | Dheeraj Mekala</title>
 
 </head>
 
@@ -562,6 +606,89 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>SELFOOD: Self-Supervised Out-Of-Distribution Detection via Learning to Rank</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Dheeraj Mekala</span>, <span >Adithya Samavedhi</span>, <span >Chengyu Dong</span>, <span >Jingbo Shang</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    October 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -571,55 +698,263 @@
 
 
 
-
-
-
-
+  
+    
   
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2305.14696.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Publication_types</h1>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/dheeraj7596/SELFOOD" target="_blank" rel="noopener">
+  Code
+</a>
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Deep neural classifiers trained with cross-entropy loss (CE loss) often suffer from poor calibration, necessitating the task of out-of-distribution (OOD) detection. Traditional supervised OOD detection methods require expensive manual annotation of in-distribution and OOD samples. To address the annotation bottleneck, we introduce SELFOOD, a self-supervised OOD detection method that requires only in-distribution samples as supervision. We cast OOD detection as an inter-document intra-label (IDIL) ranking problem and train the classifier with our pairwise ranking loss, referred to as IDIL loss. Specifically, given a set of in-distribution documents and their labels, for each label, we train the classifier to rank the softmax scores of documents belonging to that label to be higher than the scores of documents that belong to other labels. Unlike CE loss, our IDIL loss function reaches zero when the desired confidence ranking is achieved and gradients are backpropagated to decrease probabilities associated with incorrect labels rather than continuously increasing the probability of the correct label. Extensive experiments with several classifiers on multiple classification datasets demonstrate the effectiveness of our method in both coarse- and fine-grained settings.</p>
     
+
     
-    <div>
-      <h2><a href="/publication-type/1/" >1</a></h2>
-      <div class="article-style">
-        
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
       </div>
+      <div class="col-md-1"></div>
     </div>
-  
+    <div class="d-md-none space-below"></div>
     
+
     
-    
-    <div>
-      <h2><a href="/publication-type/3/" >3</a></h2>
-      <div class="article-style">
-        
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">The Findings of 2022 Conference on Empirical Methods in Natural Language Processing, Singapore</div>
+        </div>
       </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dheeraj7596.github.io/publication/selfood/&amp;text=SELFOOD:%20Self-Supervised%20Out-Of-Distribution%20Detection%20via%20Learning%20to%20Rank" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dheeraj7596.github.io/publication/selfood/&amp;t=SELFOOD:%20Self-Supervised%20Out-Of-Distribution%20Detection%20via%20Learning%20to%20Rank" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=SELFOOD:%20Self-Supervised%20Out-Of-Distribution%20Detection%20via%20Learning%20to%20Rank&amp;body=https://dheeraj7596.github.io/publication/selfood/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dheeraj7596.github.io/publication/selfood/&amp;title=SELFOOD:%20Self-Supervised%20Out-Of-Distribution%20Detection%20via%20Learning%20to%20Rank" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=SELFOOD:%20Self-Supervised%20Out-Of-Distribution%20Detection%20via%20Learning%20to%20Rank%20https://dheeraj7596.github.io/publication/selfood/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dheeraj7596.github.io/publication/selfood/&amp;title=SELFOOD:%20Self-Supervised%20Out-Of-Distribution%20Detection%20via%20Learning%20to%20Rank" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
   
+    
+    
+
+
+
+
 
   
 
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
 </div>
 
       

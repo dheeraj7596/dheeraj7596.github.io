@@ -5,12 +5,20 @@
     <link>https://dheeraj7596.github.io/author/chengyu-dong/</link>
       <atom:link href="https://dheeraj7596.github.io/author/chengyu-dong/index.xml" rel="self" type="application/rss+xml" />
     <description>Chengyu Dong</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
       <title>Chengyu Dong</title>
       <link>https://dheeraj7596.github.io/author/chengyu-dong/</link>
     </image>
+    
+    <item>
+      <title>SELFOOD: Self-Supervised Out-Of-Distribution Detection via Learning to Rank</title>
+      <link>https://dheeraj7596.github.io/publication/selfood/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://dheeraj7596.github.io/publication/selfood/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>LOPS: Learning Order Inspired Pseudo-Label Selection for Weakly Supervised Text Classification</title>
