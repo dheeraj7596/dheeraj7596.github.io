@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason Weston | Dheeraj Mekala</title>
+    <link>https://dheeraj7596.github.io/author/jason-weston/</link>
+      <atom:link href="https://dheeraj7596.github.io/author/jason-weston/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jason Weston</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
+      <title>Jason Weston</title>
+      <link>https://dheeraj7596.github.io/author/jason-weston/</link>
+    </image>
+    
+    <item>
+      <title>TOOLVERIFIER: Generalization to New Tools via Self-Verification</title>
+      <link>https://dheeraj7596.github.io/publication/toolverifier/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://dheeraj7596.github.io/publication/toolverifier/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

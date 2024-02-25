@@ -5,116 +5,12 @@
     <link>https://dheeraj7596.github.io/author/dheeraj-mekala/</link>
       <atom:link href="https://dheeraj7596.github.io/author/dheeraj-mekala/index.xml" rel="self" type="application/rss+xml" />
     <description>Dheeraj Mekala</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
       <title>Dheeraj Mekala</title>
       <link>https://dheeraj7596.github.io/author/dheeraj-mekala/</link>
     </image>
-    
-    <item>
-      <title>SELFOOD: Self-Supervised Out-Of-Distribution Detection via Learning to Rank</title>
-      <link>https://dheeraj7596.github.io/publication/selfood/</link>
-      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/selfood/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ZEROTOP: Zero-Shot Task-Oriented Semantic Parsing using Large Language Models</title>
-      <link>https://dheeraj7596.github.io/publication/zerotop/</link>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/zerotop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leveraging QA Datasets to Improve Generative Data Augmentation</title>
-      <link>https://dheeraj7596.github.io/publication/conda/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/conda/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LOPS: Learning Order Inspired Pseudo-Label Selection for Weakly Supervised Text Classification</title>
-      <link>https://dheeraj7596.github.io/publication/lops/</link>
-      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/lops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Progressive Sentiment Analysis for Code-Switched Text Data</title>
-      <link>https://dheeraj7596.github.io/publication/progressive/</link>
-      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/progressive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>BFClass: A Backdoor-free Text Classification Framework</title>
-      <link>https://dheeraj7596.github.io/publication/bfclass/</link>
-      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/bfclass/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coarse2Fine: Fine-grained Text Classification on Coarsely-grained Annotated Data</title>
-      <link>https://dheeraj7596.github.io/publication/c2f/</link>
-      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/c2f/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>X-Class: Text Classification with Extremely Weak Supervision</title>
-      <link>https://dheeraj7596.github.io/publication/xclass/</link>
-      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/xclass/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>META: Metadata-Empowered Weak Supervision for Text Classification</title>
-      <link>https://dheeraj7596.github.io/publication/meta/</link>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contextualized Weak Supervision for Text Classification</title>
-      <link>https://dheeraj7596.github.io/publication/conwea/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/conwea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>User Bias Removal in Review Score Prediction</title>
-      <link>https://dheeraj7596.github.io/publication/ubr/</link>
-      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/ubr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations</title>
-      <link>https://dheeraj7596.github.io/publication/scdv/</link>
-      <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/scdv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayes-optimal Hierarchical Classification over Asymmetric Tree-Distance Loss</title>
-      <link>https://dheeraj7596.github.io/publication/bopt/</link>
-      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://dheeraj7596.github.io/publication/bopt/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

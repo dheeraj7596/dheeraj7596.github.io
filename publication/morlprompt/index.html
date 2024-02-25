@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Ph.D. Candidate in Computer Science">
+  <meta name="description" content="RL-based techniques can be used to search for prompts that when fed into a target language model maximize a set of user-specified reward functions. However, in many target applications, the natural reward functions are in tension with one another -- for example, content preservation vs. style matching in style transfer tasks. Current techniques focus on maximizing the average of reward functions, which does not necessarily lead to prompts that achieve balance across rewards -- an issue that has been well-studied in the multi-objective and robust optimization literature. In this paper, we adapt several techniques for multi-objective optimization to RL-based discrete prompt optimization -- two that consider volume of the Pareto reward surface, and another that chooses an update direction that benefits all rewards simultaneously. We conduct an empirical analysis of these methods on two NLP tasks: style transfer and machine translation, each using three competing reward functions. Our experiments demonstrate that multi-objective methods that directly optimize volume perform better and achieve a better balance of all rewards than those that attempt to find monotonic update directions.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dheeraj7596.github.io/404.html">
+  <link rel="alternate" hreflang="en-us" href="https://dheeraj7596.github.io/publication/morlprompt/">
 
   
 
@@ -258,7 +258,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://dheeraj7596.github.io/404.html">
+  <link rel="canonical" href="https://dheeraj7596.github.io/publication/morlprompt/">
 
   
   
@@ -277,18 +277,61 @@
   <meta property="twitter:creator" content="@MekalaDheeraj">
   
   <meta property="og:site_name" content="Dheeraj Mekala">
-  <meta property="og:url" content="https://dheeraj7596.github.io/404.html">
-  <meta property="og:title" content="404 Page not found | Dheeraj Mekala">
-  <meta property="og:description" content="Ph.D. Candidate in Computer Science"><meta property="og:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://dheeraj7596.github.io/publication/morlprompt/">
+  <meta property="og:title" content="MORL-Prompt: An Empirical Analysis of Multi-Objective Reinforcement Learning for Discrete Prompt Optimization | Dheeraj Mekala">
+  <meta property="og:description" content="RL-based techniques can be used to search for prompts that when fed into a target language model maximize a set of user-specified reward functions. However, in many target applications, the natural reward functions are in tension with one another -- for example, content preservation vs. style matching in style transfer tasks. Current techniques focus on maximizing the average of reward functions, which does not necessarily lead to prompts that achieve balance across rewards -- an issue that has been well-studied in the multi-objective and robust optimization literature. In this paper, we adapt several techniques for multi-objective optimization to RL-based discrete prompt optimization -- two that consider volume of the Pareto reward surface, and another that chooses an update direction that benefits all rewards simultaneously. We conduct an empirical analysis of these methods on two NLP tasks: style transfer and machine translation, each using three competing reward functions. Our experiments demonstrate that multi-objective methods that directly optimize volume perform better and achieve a better balance of all rewards than those that attempt to find monotonic update directions."><meta property="og:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
+      <meta property="article:published_time" content="2024-02-15T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-02-15T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://dheeraj7596.github.io/publication/morlprompt/"
+  },
+  "headline": "MORL-Prompt: An Empirical Analysis of Multi-Objective Reinforcement Learning for Discrete Prompt Optimization",
+  
+  "datePublished": "2024-02-15T00:00:00Z",
+  "dateModified": "2024-02-15T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Yasaman Jafari"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dheeraj Mekala",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "RL-based techniques can be used to search for prompts that when fed into a target language model maximize a set of user-specified reward functions. However, in many target applications, the natural reward functions are in tension with one another -- for example, content preservation vs. style matching in style transfer tasks. Current techniques focus on maximizing the average of reward functions, which does not necessarily lead to prompts that achieve balance across rewards -- an issue that has been well-studied in the multi-objective and robust optimization literature. In this paper, we adapt several techniques for multi-objective optimization to RL-based discrete prompt optimization -- two that consider volume of the Pareto reward surface, and another that chooses an update direction that benefits all rewards simultaneously. We conduct an empirical analysis of these methods on two NLP tasks: style transfer and machine translation, each using three competing reward functions. Our experiments demonstrate that multi-objective methods that directly optimize volume perform better and achieve a better balance of all rewards than those that attempt to find monotonic update directions."
+}
+</script>
+
+  
 
   
 
@@ -296,10 +339,13 @@
   
 
 
+  
 
 
 
-  <title>404 Page not found | Dheeraj Mekala</title>
+
+
+  <title>MORL-Prompt: An Empirical Analysis of Multi-Objective Reinforcement Learning for Discrete Prompt Optimization | Dheeraj Mekala</title>
 
 </head>
 
@@ -560,50 +606,347 @@
 </nav>
 
 
-  <div class="universal-wrapper pt-3">
-
-  <h1>Page not found</h1>
-
-  
-  
-  <form class="d-flex align-items-center mb-3">
-    <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
-  </form>
-  
+  <div class="pub">
 
   
 
-  <p>Perhaps you were looking for one of these?</p>
+
+
+
+
+
+
+
+
+
+
+
+  
 
   
   
   
-  <h2>Latest</h2>
-  <ul>
+<div class="article-container pt-3">
+  <h1>MORL-Prompt: An Empirical Analysis of Multi-Objective Reinforcement Learning for Discrete Prompt Optimization</h1>
+
+  
+
+  
     
-      <li><a href="/publication/toolverifier/">TOOLVERIFIER: Generalization to New Tools via Self-Verification</a></li>
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
     
-      <li><a href="/publication/small2large/">Smaller Language Models are capable of selecting Instruction-Tuning Training Data for Larger Language Models</a></li>
+
+  
+  <span >Yasaman Jafari</span>, <span >Dheeraj Mekala</span>, <span >Rose Yu</span>, <span >Taylor Berg-Kirkpatrick</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
     
-      <li><a href="/publication/morlprompt/">MORL-Prompt: An Empirical Analysis of Multi-Objective Reinforcement Learning for Discrete Prompt Optimization</a></li>
     
-      <li><a href="/publication/selfood/">SELFOOD: Self-Supervised Out-Of-Distribution Detection via Learning to Rank</a></li>
+      
     
-      <li><a href="/publication/zerotop/">ZEROTOP: Zero-Shot Task-Oriented Semantic Parsing using Large Language Models</a></li>
+    February 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
     
-      <li><a href="/publication/conda/">Leveraging QA Datasets to Improve Generative Data Augmentation</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
     
-      <li><a href="/publication/lops/">LOPS: Learning Order Inspired Pseudo-Label Selection for Weakly Supervised Text Classification</a></li>
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2402.11711.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
-      <li><a href="/publication/progressive/">Progressive Sentiment Analysis for Code-Switched Text Data</a></li>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">RL-based techniques can be used to search for prompts that when fed into a target language model maximize a set of user-specified reward functions. However, in many target applications, the natural reward functions are in tension with one another &ndash; for example, content preservation vs. style matching in style transfer tasks. Current techniques focus on maximizing the average of reward functions, which does not necessarily lead to prompts that achieve balance across rewards &ndash; an issue that has been well-studied in the multi-objective and robust optimization literature. In this paper, we adapt several techniques for multi-objective optimization to RL-based discrete prompt optimization &ndash; two that consider volume of the Pareto reward surface, and another that chooses an update direction that benefits all rewards simultaneously. We conduct an empirical analysis of these methods on two NLP tasks: style transfer and machine translation, each using three competing reward functions. Our experiments demonstrate that multi-objective methods that directly optimize volume perform better and achieve a better balance of all rewards than those that attempt to find monotonic update directions.</p>
     
-      <li><a href="/publication/bfclass/">BFClass: A Backdoor-free Text Classification Framework</a></li>
+
     
-      <li><a href="/publication/c2f/">Coarse2Fine: Fine-grained Text Classification on Coarsely-grained Annotated Data</a></li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Preprint</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://dheeraj7596.github.io/publication/morlprompt/&amp;text=MORL-Prompt:%20An%20Empirical%20Analysis%20of%20Multi-Objective%20Reinforcement%20Learning%20for%20Discrete%20Prompt%20Optimization" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://dheeraj7596.github.io/publication/morlprompt/&amp;t=MORL-Prompt:%20An%20Empirical%20Analysis%20of%20Multi-Objective%20Reinforcement%20Learning%20for%20Discrete%20Prompt%20Optimization" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=MORL-Prompt:%20An%20Empirical%20Analysis%20of%20Multi-Objective%20Reinforcement%20Learning%20for%20Discrete%20Prompt%20Optimization&amp;body=https://dheeraj7596.github.io/publication/morlprompt/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://dheeraj7596.github.io/publication/morlprompt/&amp;title=MORL-Prompt:%20An%20Empirical%20Analysis%20of%20Multi-Objective%20Reinforcement%20Learning%20for%20Discrete%20Prompt%20Optimization" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=MORL-Prompt:%20An%20Empirical%20Analysis%20of%20Multi-Objective%20Reinforcement%20Learning%20for%20Discrete%20Prompt%20Optimization%20https://dheeraj7596.github.io/publication/morlprompt/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://dheeraj7596.github.io/publication/morlprompt/&amp;title=MORL-Prompt:%20An%20Empirical%20Analysis%20of%20Multi-Objective%20Reinforcement%20Learning%20for%20Discrete%20Prompt%20Optimization" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
   
 
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
 </div>
 
       

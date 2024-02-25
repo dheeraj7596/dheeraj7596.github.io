@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rose Yu | Dheeraj Mekala</title>
+    <link>https://dheeraj7596.github.io/author/rose-yu/</link>
+      <atom:link href="https://dheeraj7596.github.io/author/rose-yu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rose Yu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dheeraj7596.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
+      <title>Rose Yu</title>
+      <link>https://dheeraj7596.github.io/author/rose-yu/</link>
+    </image>
+    
+    <item>
+      <title>MORL-Prompt: An Empirical Analysis of Multi-Objective Reinforcement Learning for Discrete Prompt Optimization</title>
+      <link>https://dheeraj7596.github.io/publication/morlprompt/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://dheeraj7596.github.io/publication/morlprompt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
